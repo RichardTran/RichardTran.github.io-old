@@ -1,0 +1,51 @@
+.myInfo{
+    padding-top: 50px;
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color:white;
+}
+
+.font-title{
+    font-size: 38px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 15px;
+    color:white;
+}
+
+.font-subtitle{
+    font-size: 38px;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 15px;
+    color:white;
+}
+
+.section-title{
+    font-size: 38px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 100px;
+}
+
+.section-details{
+    font-size: 18px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 10px;
+}
+
+.bg-img1{
+    background-image: url("../imgs/blue-circuit.jpg");
+    background-size: 1600px 480px;
+    background-repeat: no-repeat;
+}
+
+.bg-blk{
+    background-color: black;
+}
