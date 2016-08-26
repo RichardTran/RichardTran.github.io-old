@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Home Page</title>
+  <script src="js/custom.jss"></script>
   <script src="js/jquery.min.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
@@ -36,6 +37,7 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="#About">About</a></li>
           <li><a target="_blank" href="https://github.com/RichardTran">Projects</a></li>
           <li><a target="_blank" href="TranRichard_Resume.pdf">Resume</a></li>
         </ul>
@@ -61,7 +63,7 @@
     </div>
   </div>
   <!--End of second section -->
-  <div class="container-fluid pagination-centered">
+  <div id="About" class="container-fluid pagination-centered">
     <div class="container">
       <div class="row">
           <div class="section-title pagination-centered text-center">About Me</div>
@@ -155,9 +157,10 @@
               </div> 
               <div class="col-md-8">
                 <p>
-                  Project written in Java. Rearranged ILOC instruction sets into a new set that optimally used of all
+                  Project written in Java. This project rearranges ILOC instruction sets into a new set that optimally uses all
                   available registers without affecting desired output. Used data structures including Hash Maps.
-                  Trees, ArrayLists, and Objects to accomplish such simulation of a real scheduler efficiently
+                  Trees, ArrayLists, and Objects to accomplish such simulation of a real assembly scheduler 
+                  that runs in a reasonable amount of time.
                 </p>
               </div>
             </div>
